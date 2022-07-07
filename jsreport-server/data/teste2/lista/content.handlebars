@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link href="index.css" rel="stylesheet" type="text/css">
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+      <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ficha de indicação</title>
+      <style>
+         .div-class-one {
+            width: 1400px;
+            display: flex;
+            flex-direction: column;
+            margin: 0px 0 0 -2px;
+    background: url("{{asset "10.png" "dataURI"}}");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 1056px;
+         }
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div-class {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-nome {
+    font-size: 12px;
+}
+
+.div-class-one {
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0 0 -2px;
+    background: url("{{asset "10.png" "dataURI"}}");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1056px;
+}
+
+.div-dados{
+    margin: 180px 0px 0 50px;
+}
+
+.form-1 {
+    border: 1px solid silver;
+    height: 35px;
+    width: 660px;
+    margin: 10px 0px 0 45px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+}
+
+.span-form-1 {
+    margin: 0 0 0 6px;
+    font-size: 12px;
+}
+
+.form-2 {
+    display: flex;
+    height: 35px;
+    width: 665px;
+    margin: 5px 0px 0 45px;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.form-2-one{
+    height: 35px;
+    width: 270px;
+    margin: 0px 7px 1px 1px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+}
+
+.form-2-two {
+    height: 35px;
+    width: 175px;
+    margin: 0px 7px 1px 1px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+}
+
+.span-form-2 {
+    margin: 0 0 0 6px;
+    font-size: 12px;
+}
+
+.form-3 {
+    display: flex;
+    height: 35px;
+    width: 665px;
+    margin: 5px 0px 0 46px;
+    align-items: flex-end;
+}
+
+.form-3-one {
+    height: 35px;
+    width: 340px;
+    margin: 0px 7px 1px 0px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+}
+
+.span-form-3 {
+    margin: 0 0 0 6px;
+    font-size: 12px;
+}
+
+.form-4 {
+    display: flex;
+    height: 30px;
+    width: 665px;
+    margin: 9px 0px 0 46px;
+    align-items: flex-end;
+}
+
+.form-4-one {
+    height: 35px;
+    width: 420px;
+    margin: 0px 7px 1px 0px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+}
+
+.form-4-two {
+    height: 35px;
+    width: 230px;
+    margin: 0px 7px 1px 0px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+}
+
+.span-form-4 {
+    margin: 0 0 0 6px;
+    font-size: 12px;
+}
+
+.div-dados-2 {
+    margin: 0px 0px 0 50px;
+}
+
+.form-5{
+    display: flex;
+    height: 30px;
+    width: 665px;
+    margin: 9px 0px 0 46px;
+    align-items: flex-end;
+}
+
+.form-5-one {
+    height: 35px;
+    width: 270px;
+    margin: 0px 7px 1px 0px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+}
+
+.form-5-two {
+    height: 35px;
+    width: 90px;
+    margin: 0px 7px 1px 0px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+}
+
+.form-5-tree {
+    height: 35px;
+    width: 140px;
+    margin: 0px 7px 1px 0px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+}
+
+.form-5-fuor {
+    height: 35px;
+    width: 140px;
+    margin: 0px 7px 1px 0px;
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+}
+
+.div-dados-3 {
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+    width: 663px;
+    height: 200px;
+    margin: 0 0 0 43px;
+    font-size: 10px;
+}
+
+.div-dados-4 {
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+    width: 663px;
+    height: 50px;
+    margin: 0 0 0 43px;
+    font-size: 10px;
+}
+
+.span-form-6 {
+    margin: 0 0 0 48px;
+    font-size: 12px;
+}
+
+.span-form-7 {
+    margin: 0 0 0 48px;
+    /* font-size: 15px; */
+}
+
+.form-6 {
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+    width: 663px;
+    height: 35px;
+    margin: 0 0 0 43px;
+    font-size: 10px;
+}
+
+.form-8 {
+    display: flex;
+    height: 30px;
+    width: 673px;
+    margin: 9px 0px 0 33px;
+    align-items: flex-end;
+}
+
+.form-8-one {
+    border: 1px solid silver;
+    border-radius: 8px;
+    box-shadow: 0px 0px 3px -1px black;
+    width: 669px;
+    height: 35px;
+    margin: 0 0 0 9px;
+    font-size: 10px;
+}
+
+.span-form-8 {
+    margin: 0 0 0 44px;
+}
+
+.span-form-9 {
+    margin: -18px -1px 0px 380px;
+}
+
+      </style>
+   </head>
+   <body>
+      <!-- <%= user %> -->
+      <div class="div-class">
+         <div class="div-class-one">
+            <div class="div-dados">
+               <span>1- DADOS DO MILITAR INDICADO PARA CONDECORAÇÃO</span>
+            </div>
+            <div class="form-1">
+               <span class="span-form-1">Nome Completo:</span>
+               <span class="font-nome"> nome </span>
+            </div>
+            <div class="form-2">
+               <div class="form-2-one">
+                  <span class="span-form-2">Posto/Grad.:</span>
+                  <span class="font-nome"> cargo </span>
+               </div>
+               <div class="form-2-two">
+                  <span class="span-form-2">Quadro:</span>
+                  <span class="font-nome"> quadro </span>
+               </div>
+               <div class="form-2-one">
+                  <span class="span-form-2">Nome de Guerra:</span>
+                  <span class="font-nome"> warName> </span>
+               </div>
+            </div>
+            <div class="form-2">
+               <div class="form-2-one">
+                  <span class="span-form-2">MF:</span>
+                  <span class="font-nome"> matricula </span>
+               </div>
+               <div class="form-2-two">
+                  <span class="span-form-2">UBM:</span>
+                  <span class="font-nome"> user.setores.nome %> </span>
+               </div>
+               <div class="form-2-one">
+                  <span class="span-form-2">Função:</span>
+                  <span class="font-nome"> user.funcoes.funcao %> </span>
+               </div>
+            </div>
+            <div class="form-3">
+               <div class="form-3-one">
+                  <span class="span-form-3">Situação:</span>
+                  <span class="font-nome"> user.situacoes.nome %> </span>
+               </div>
+               <div class="form-3-one">
+                  <span class="span-form-3">Email:</span>
+                  <span class="font-nome">  user.email %> </span>
+               </div>
+            </div>
+            <div class="form-4">
+               <div class="form-4-one">
+                  <span class="span-form-4">Endereço:</span>
+                  <span class="font-nome">  user.endereco %> </span>
+               </div>
+               <div class="form-4-two">
+                  <span class="span-form-4">Bairro:</span>
+                  <span class="font-nome">  user.bairro %> </span>
+               </div>
+            </div>
+            <div class="form-5">
+               <div class="form-5-one">
+                  <span class="span-form-2">Cidade:</span>
+                  <span class="font-nome"> user.cidade %> </span>
+               </div>
+               <div class="form-5-two">
+                  <span class="span-form-2">UF:</span>
+                  <span class="font-nome"> Pará </span>
+               </div>
+               <div class="form-5-tree">
+                  <span class="span-form-2">CEP:</span>
+                  <span class="font-nome">  user.cep %> </span>
+               </div>
+               <div class="form-5-fuor">
+                  <span class="span-form-2">Telefone:</span>
+                  <span class="font-nome">  user.telefone %> </span>
+               </div>
+            </div>
+            <div class="form-2">
+               <div class="form-2-one">
+                  <span class="span-form-2">Data da Última Promoção:</span>
+                  <span class="font-nome">  user.data_ultima_promocao %> </span>
+               </div>
+               <div class="form-2-one">
+                  <span class="span-form-2">Data ingresso:</span>
+                  <span class="font-nome">  user.data_inclusao %> </span>
+               </div>
+               <div class="form-2-one">
+                  <span class="span-form-2">Critério da Última</span><br>
+                  <span class="span-form-2">Promoção:</span>
+               </div>
+            </div>
+            <div class="div-dados-2">
+               <span>2- CRITÉRIOS PARA A CONCESSÃO DA ORDEM DO MÉRITO DOM PEDRO ll <br>GRAU CAVALAEIRO</span>
+            </div>
+            <div class="div-dados-3">
+            - medalha.informacao %>
+            </div>
+            <div class="div-dados-2">
+               <span>3- MOTIVAÇÃO PARA INDICAÇÃO - OPCIONAL</span>
+            </div>
+            <div class="div-dados-4">
+            %= concessao.motivo %>
+            </div>
+            <div class="div-dados-2">
+               <span>4- DECLARAÇÃO DE MÉRITO</span>
+            </div>
+            <span class="span-form-6">Ao assinar esta proposta ao Mérito Bombeiro Militar, declaro para fins legais que o militar indicado<br>
+               cumpre todos os critérios estabelecidos no Art. 16 do Decreto Estadual Nº 506, de 15 de janeiro de 2020,<br>
+               inclusive nos itens concernentes à disciplina e justiça.</span>
+            <span class="span-form-7">Proposto por (Posto, Nome completo e Função)</span>  
+            <div class="form-6">
+                pessoa.cargos.nome %>  pessoa.cargos.quadro.quadro %> = pessoa.nome %> - = pessoa.funcoes.funcao %>
+            </div>
+            <span class="span-form-8">Local e data:</span>
+            <span class="span-form-9">Assinatura:</span>
+            <div class="form-8">
+               <div class="form-8-one"> Belém = concessao.createdAt %> </div>
+               <div class="form-8-one"></div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>

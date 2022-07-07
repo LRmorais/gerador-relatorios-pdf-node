@@ -1,0 +1,854 @@
+2022-07-05T17:42:18.542Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-07-05T17:42:18.545Z - info: Searching for available extensions in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-05T17:42:18.548Z - info: Extensions location cache not found, crawling directories
+2022-07-05T17:42:19.528Z - info: Found 35 extension(s)
+2022-07-05T17:42:19.953Z - info: Using extension base@3.0.0
+2022-07-05T17:42:19.965Z - info: Using extension child-templates@3.0.3
+2022-07-05T17:42:19.976Z - info: Using extension cli@3.2.1
+2022-07-05T17:42:19.986Z - info: Using extension components@3.2.1
+2022-07-05T17:42:19.995Z - info: Using extension data@3.0.1
+2022-07-05T17:42:20.005Z - info: Using extension express@3.4.1
+2022-07-05T17:42:22.183Z - info: Using extension freeze@3.0.1
+2022-07-05T17:42:22.192Z - info: Using extension fs-store@3.2.1
+2022-07-05T17:42:22.922Z - info: Using extension handlebars@3.1.0
+2022-07-05T17:42:22.931Z - info: Using extension import-export@3.1.2
+2022-07-05T17:42:23.027Z - info: Using extension jsrender@3.0.0
+2022-07-05T17:42:23.033Z - info: Using extension licensing@3.0.2
+2022-07-05T17:42:23.199Z - info: Using extension localization@3.2.1
+2022-07-05T17:42:23.204Z - info: Using extension npm@3.1.2
+2022-07-05T17:42:23.213Z - info: Using extension pdf-utils@3.4.1
+2022-07-05T17:42:23.223Z - info: Using extension reports@3.0.5
+2022-07-05T17:42:23.237Z - info: Using extension tags@3.1.0
+2022-07-05T17:42:23.252Z - info: Using extension text@3.0.0
+2022-07-05T17:42:23.257Z - info: Using extension version-control@3.1.1
+2022-07-05T17:42:23.335Z - info: Using extension assets@3.4.2
+2022-07-05T17:42:23.439Z - info: Using extension authorization@3.2.1
+2022-07-05T17:42:23.479Z - info: Using extension browser-client@3.1.1
+2022-07-05T17:42:23.514Z - info: Using extension chrome-pdf@3.1.2
+2022-07-05T17:42:23.528Z - info: Using extension docx@3.3.1
+2022-07-05T17:42:23.540Z - info: Using extension html-to-xlsx@3.2.2
+2022-07-05T17:42:23.630Z - info: html-to-xlsx detected chrome as available html engine
+2022-07-05T17:42:23.631Z - info: Using extension pptx@3.2.1
+2022-07-05T17:42:23.639Z - info: Using extension scheduling@3.0.2
+2022-07-05T17:42:23.931Z - info: Using extension scripts@3.2.1
+2022-07-05T17:42:23.936Z - info: Using extension static-pdf@3.0.0
+2022-07-05T17:42:23.943Z - info: Using extension studio@3.6.0
+2022-07-05T17:42:24.548Z - info: Using extension xlsx@3.2.1
+2022-07-05T17:42:25.091Z - info: Using extension public-templates@3.0.0
+2022-07-05T17:42:25.102Z - info: Using extension sample-template@3.2.1
+2022-07-05T17:42:25.147Z - info: Using extension studio-theme-dark@3.0.1
+2022-07-05T17:42:25.181Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-07-05T17:42:25.182Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-07-05T17:42:25.183Z - info: Using fs provider for template store.
+2022-07-05T17:42:25.196Z - info: fs store is persisting using fs for C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\data
+2022-07-05T17:42:25.215Z - info: fs store is loading data
+2022-07-05T17:42:25.224Z - info: fs store is initialized successfully
+2022-07-05T17:42:25.316Z - info: Creating default express app.
+2022-07-05T17:42:25.643Z - info: jsreport server successfully started on http port: 5488
+2022-07-05T17:42:25.645Z - info: Verifying license key free
+2022-07-05T17:42:25.647Z - info: Using free license
+2022-07-05T17:42:25.685Z - info: Migrating templates chrome settings (waitForNetworkIddle -> waitForNetworkIdle)
+2022-07-05T17:42:25.700Z - info: Migration successful
+2022-07-05T17:42:26.205Z - info: Initializing worker threads
+2022-07-05T17:42:27.983Z - info: 2 worker threads initialized in 1778ms
+2022-07-05T17:42:27.983Z - info: Starting temp files cleanup with 180000ms threshold
+2022-07-05T17:42:27.984Z - info: reporter initialized
+2022-07-05T17:43:47.474Z - info: Render request 1 queued for execution and waiting for availible worker rootId=uftm0d6yq3sd1oq, id=uftm0d6yq3sd1oq
+2022-07-05T17:43:48.189Z - info: Starting rendering request 1 (user: null) rootId=uftm0d6yq3sd1oq, id=uftm0d6yq3sd1oq
+2022-07-05T17:43:48.190Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=uftm0d6yq3sd1oq, id=uftm0d6yq3sd1oq
+2022-07-05T17:43:59.951Z - info: Rendering request 1 finished in 12484 ms rootId=uftm0d6yq3sd1oq, id=uftm0d6yq3sd1oq
+2022-07-05T17:48:35.225Z - info: Render request 2 queued for execution and waiting for availible worker rootId=thryf26gorxjtlh, id=thryf26gorxjtlh
+2022-07-05T17:48:35.248Z - info: Starting rendering request 2 (user: null) rootId=thryf26gorxjtlh, id=thryf26gorxjtlh
+2022-07-05T17:48:35.249Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=thryf26gorxjtlh, id=thryf26gorxjtlh
+2022-07-05T17:48:35.569Z - info: Rendering request 2 finished in 343 ms rootId=thryf26gorxjtlh, id=thryf26gorxjtlh
+2022-07-05T18:11:00.421Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-07-05T18:11:00.426Z - info: Searching for available extensions in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-05T18:11:00.435Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-05T18:11:00.453Z - info: Found 35 extension(s)
+2022-07-05T18:11:00.609Z - info: Using extension base@3.0.0
+2022-07-05T18:11:00.615Z - info: Using extension child-templates@3.0.3
+2022-07-05T18:11:00.619Z - info: Using extension cli@3.2.1
+2022-07-05T18:11:00.621Z - info: Using extension components@3.2.1
+2022-07-05T18:11:00.622Z - info: Using extension data@3.0.1
+2022-07-05T18:11:00.623Z - info: Using extension express@3.4.1
+2022-07-05T18:11:00.987Z - info: Using extension freeze@3.0.1
+2022-07-05T18:11:00.989Z - info: Using extension fs-store@3.2.1
+2022-07-05T18:11:01.129Z - info: Using extension handlebars@3.1.0
+2022-07-05T18:11:01.131Z - info: Using extension import-export@3.1.2
+2022-07-05T18:11:01.141Z - info: Using extension jsrender@3.0.0
+2022-07-05T18:11:01.142Z - info: Using extension licensing@3.0.2
+2022-07-05T18:11:01.170Z - info: Using extension localization@3.2.1
+2022-07-05T18:11:01.172Z - info: Using extension npm@3.1.2
+2022-07-05T18:11:01.178Z - info: Using extension pdf-utils@3.4.1
+2022-07-05T18:11:01.183Z - info: Using extension reports@3.0.5
+2022-07-05T18:11:01.190Z - info: Using extension tags@3.1.0
+2022-07-05T18:11:01.193Z - info: Using extension text@3.0.0
+2022-07-05T18:11:01.202Z - info: Using extension version-control@3.1.1
+2022-07-05T18:11:01.219Z - info: Using extension assets@3.4.2
+2022-07-05T18:11:01.236Z - info: Using extension authorization@3.2.1
+2022-07-05T18:11:01.241Z - info: Using extension browser-client@3.1.1
+2022-07-05T18:11:01.243Z - info: Using extension chrome-pdf@3.1.2
+2022-07-05T18:11:01.248Z - info: Using extension docx@3.3.1
+2022-07-05T18:11:01.251Z - info: Using extension html-to-xlsx@3.2.2
+2022-07-05T18:11:01.355Z - info: html-to-xlsx detected chrome as available html engine
+2022-07-05T18:11:01.355Z - info: Using extension pptx@3.2.1
+2022-07-05T18:11:01.358Z - info: Using extension scheduling@3.0.2
+2022-07-05T18:11:01.402Z - info: Using extension scripts@3.2.1
+2022-07-05T18:11:01.403Z - info: Using extension static-pdf@3.0.0
+2022-07-05T18:11:01.404Z - info: Using extension studio@3.6.0
+2022-07-05T18:11:01.487Z - info: Using extension xlsx@3.2.1
+2022-07-05T18:11:01.523Z - info: Using extension public-templates@3.0.0
+2022-07-05T18:11:01.525Z - info: Using extension sample-template@3.2.1
+2022-07-05T18:11:01.527Z - info: Using extension studio-theme-dark@3.0.1
+2022-07-05T18:11:01.530Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-07-05T18:11:01.530Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-07-05T18:11:01.531Z - info: Using fs provider for template store.
+2022-07-05T18:11:01.539Z - info: fs store is persisting using fs for C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\data
+2022-07-05T18:11:01.545Z - info: fs store is loading data
+2022-07-05T18:11:01.584Z - info: fs store is initialized successfully
+2022-07-05T18:11:01.611Z - info: Creating default express app.
+2022-07-05T18:11:01.691Z - info: jsreport server successfully started on http port: 5488
+2022-07-05T18:11:01.693Z - info: Verifying license key free
+2022-07-05T18:11:01.694Z - info: Using free license
+2022-07-05T18:11:01.706Z - info: Initializing worker threads
+2022-07-05T18:11:02.087Z - info: 2 worker threads initialized in 381ms
+2022-07-05T18:11:02.087Z - info: Starting temp files cleanup with 180000ms threshold
+2022-07-05T18:11:02.088Z - info: reporter initialized
+2022-07-05T19:25:38.960Z - info: Render request 1 queued for execution and waiting for availible worker rootId=r16j4pcie5d5wyd, id=r16j4pcie5d5wyd
+2022-07-05T19:25:39.047Z - info: Starting rendering request 1 (user: null) rootId=r16j4pcie5d5wyd, id=r16j4pcie5d5wyd
+2022-07-05T19:25:39.048Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=r16j4pcie5d5wyd, id=r16j4pcie5d5wyd
+2022-07-05T19:25:41.503Z - info: Rendering request 1 finished in 2543 ms rootId=r16j4pcie5d5wyd, id=r16j4pcie5d5wyd
+2022-07-05T19:26:08.622Z - info: Render request 2 queued for execution and waiting for availible worker rootId=mua6atmkw2oasek, id=mua6atmkw2oasek
+2022-07-05T19:26:08.672Z - info: Starting rendering request 2 (user: null) rootId=mua6atmkw2oasek, id=mua6atmkw2oasek
+2022-07-05T19:26:08.673Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true } rootId=mua6atmkw2oasek, id=mua6atmkw2oasek
+2022-07-05T19:26:12.364Z - info: html-to-xlsx generation is starting rootId=mua6atmkw2oasek, id=mua6atmkw2oasek
+2022-07-05T19:26:14.426Z - info: html-to-xlsx generation was finished rootId=mua6atmkw2oasek, id=mua6atmkw2oasek
+2022-07-05T19:26:16.358Z - info: Rendering request 2 finished in 7735 ms rootId=mua6atmkw2oasek, id=mua6atmkw2oasek
+2022-07-05T19:26:16.596Z - info: Render request 3 queued for execution and waiting for availible worker rootId=16bux1rkhfkt6yb, id=16bux1rkhfkt6yb
+2022-07-05T19:26:16.608Z - info: Starting rendering request 3 (user: null) rootId=16bux1rkhfkt6yb, id=16bux1rkhfkt6yb
+2022-07-05T19:26:16.609Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true } rootId=16bux1rkhfkt6yb, id=16bux1rkhfkt6yb
+2022-07-05T19:26:16.711Z - info: html-to-xlsx generation is starting rootId=16bux1rkhfkt6yb, id=16bux1rkhfkt6yb
+2022-07-05T19:26:17.664Z - info: html-to-xlsx generation was finished rootId=16bux1rkhfkt6yb, id=16bux1rkhfkt6yb
+2022-07-05T19:26:18.457Z - info: Rendering request 3 finished in 1859 ms rootId=16bux1rkhfkt6yb, id=16bux1rkhfkt6yb
+2022-07-05T19:28:48.624Z - info: Render request 4 queued for execution and waiting for availible worker rootId=onpclkhg3nqf01e, id=onpclkhg3nqf01e
+2022-07-05T19:28:48.652Z - info: Starting rendering request 4 (user: null) rootId=onpclkhg3nqf01e, id=onpclkhg3nqf01e
+2022-07-05T19:28:48.653Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true } rootId=onpclkhg3nqf01e, id=onpclkhg3nqf01e
+2022-07-05T19:28:48.719Z - info: html-to-xlsx generation is starting rootId=onpclkhg3nqf01e, id=onpclkhg3nqf01e
+2022-07-05T19:28:50.344Z - info: html-to-xlsx generation was finished rootId=onpclkhg3nqf01e, id=onpclkhg3nqf01e
+2022-07-05T19:28:52.917Z - info: Rendering request 4 finished in 4292 ms rootId=onpclkhg3nqf01e, id=onpclkhg3nqf01e
+2022-07-05T19:29:01.826Z - info: Render request 5 queued for execution and waiting for availible worker rootId=egdy10ece34z72s, id=egdy10ece34z72s
+2022-07-05T19:29:01.867Z - info: Starting rendering request 5 (user: null) rootId=egdy10ece34z72s, id=egdy10ece34z72s
+2022-07-05T19:29:01.868Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=egdy10ece34z72s, id=egdy10ece34z72s
+2022-07-05T19:29:16.632Z - info: pdf-utils is starting pdf processing rootId=egdy10ece34z72s, id=egdy10ece34z72s
+2022-07-05T19:29:16.643Z - info: Starting rendering request 5 (user: null) rootId=egdy10ece34z72s, id=t2chv6bautmtu9o
+2022-07-05T19:29:16.644Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=egdy10ece34z72s, id=t2chv6bautmtu9o
+2022-07-05T19:29:17.111Z - info: Rendering request 5 finished in 15156 ms rootId=egdy10ece34z72s, id=t2chv6bautmtu9o
+2022-07-05T19:29:17.114Z - info: pdf-utils pdf processing was finished rootId=egdy10ece34z72s, id=egdy10ece34z72s
+2022-07-05T19:29:17.115Z - info: Rendering request 5 finished in 15284 ms rootId=egdy10ece34z72s, id=egdy10ece34z72s
+2022-07-06T01:46:55.537Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-07-06T01:46:55.540Z - info: Searching for available extensions in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-06T01:46:55.586Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-06T01:46:55.607Z - info: Found 35 extension(s)
+2022-07-06T01:46:56.040Z - info: Using extension base@3.0.0
+2022-07-06T01:46:56.050Z - info: Using extension child-templates@3.0.3
+2022-07-06T01:46:56.059Z - info: Using extension cli@3.2.1
+2022-07-06T01:46:56.068Z - info: Using extension components@3.2.1
+2022-07-06T01:46:56.079Z - info: Using extension data@3.0.1
+2022-07-06T01:46:56.087Z - info: Using extension express@3.4.1
+2022-07-06T01:46:58.871Z - info: Using extension freeze@3.0.1
+2022-07-06T01:46:58.884Z - info: Using extension fs-store@3.2.1
+2022-07-06T01:46:59.908Z - info: Using extension handlebars@3.1.0
+2022-07-06T01:46:59.917Z - info: Using extension import-export@3.1.2
+2022-07-06T01:47:00.044Z - info: Using extension jsrender@3.0.0
+2022-07-06T01:47:00.050Z - info: Using extension licensing@3.0.2
+2022-07-06T01:47:00.230Z - info: Using extension localization@3.2.1
+2022-07-06T01:47:00.236Z - info: Using extension npm@3.1.2
+2022-07-06T01:47:00.270Z - info: Using extension pdf-utils@3.4.1
+2022-07-06T01:47:00.283Z - info: Using extension reports@3.0.5
+2022-07-06T01:47:00.296Z - info: Using extension tags@3.1.0
+2022-07-06T01:47:00.312Z - info: Using extension text@3.0.0
+2022-07-06T01:47:00.318Z - info: Using extension version-control@3.1.1
+2022-07-06T01:47:00.401Z - info: Using extension assets@3.4.2
+2022-07-06T01:47:00.518Z - info: Using extension authorization@3.2.1
+2022-07-06T01:47:00.573Z - info: Using extension browser-client@3.1.1
+2022-07-06T01:47:00.604Z - info: Using extension chrome-pdf@3.1.2
+2022-07-06T01:47:00.627Z - info: Using extension docx@3.3.1
+2022-07-06T01:47:00.638Z - info: Using extension html-to-xlsx@3.2.2
+2022-07-06T01:47:02.797Z - info: html-to-xlsx detected chrome as available html engine
+2022-07-06T01:47:02.799Z - info: Using extension pptx@3.2.1
+2022-07-06T01:47:02.838Z - info: Using extension scheduling@3.0.2
+2022-07-06T01:47:03.316Z - info: Using extension scripts@3.2.1
+2022-07-06T01:47:03.323Z - info: Using extension static-pdf@3.0.0
+2022-07-06T01:47:03.331Z - info: Using extension studio@3.6.0
+2022-07-06T01:47:03.829Z - info: Using extension xlsx@3.2.1
+2022-07-06T01:47:04.153Z - info: Using extension public-templates@3.0.0
+2022-07-06T01:47:04.163Z - info: Using extension sample-template@3.2.1
+2022-07-06T01:47:04.174Z - info: Using extension studio-theme-dark@3.0.1
+2022-07-06T01:47:04.186Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-07-06T01:47:04.187Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-07-06T01:47:04.188Z - info: Using fs provider for template store.
+2022-07-06T01:47:04.193Z - info: fs store is persisting using fs for C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\data
+2022-07-06T01:47:04.198Z - info: fs store is loading data
+2022-07-06T01:47:04.273Z - info: fs store is initialized successfully
+2022-07-06T01:47:04.286Z - info: Creating default express app.
+2022-07-06T01:47:04.777Z - info: jsreport server successfully started on http port: 5488
+2022-07-06T01:47:04.778Z - info: Verifying license key free
+2022-07-06T01:47:04.780Z - info: Using free license
+2022-07-06T01:47:04.786Z - info: Initializing worker threads
+2022-07-06T01:47:05.934Z - info: 2 worker threads initialized in 1148ms
+2022-07-06T01:47:05.934Z - info: Starting temp files cleanup with 180000ms threshold
+2022-07-06T01:47:05.936Z - info: reporter initialized
+2022-07-06T02:01:38.221Z - info: Render request 1 queued for execution and waiting for availible worker rootId=auasvgmexl347xd, id=auasvgmexl347xd
+2022-07-06T02:01:39.065Z - info: Starting rendering request 1 (user: null) rootId=auasvgmexl347xd, id=auasvgmexl347xd
+2022-07-06T02:01:39.066Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=auasvgmexl347xd, id=auasvgmexl347xd
+2022-07-06T02:01:43.901Z - info: Rendering request 1 finished in 5676 ms rootId=auasvgmexl347xd, id=auasvgmexl347xd
+2022-07-06T02:04:15.331Z - info: Render request 2 queued for execution and waiting for availible worker rootId=2ql9d12n2vzyj8m, id=2ql9d12n2vzyj8m
+2022-07-06T02:04:15.343Z - error: Report render failed: Unexpected token } in JSON at position 60 SyntaxError: Unexpected token } in JSON at position 60
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:60:17)
+    at module.exports (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:36:23)
+    at WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:112:21)
+    at WorkerReporter.render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:128:17)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:174:12)
+    at Object.execute (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\workerHandler.js:52:23)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:41
+    at Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:25) rootId=2ql9d12n2vzyj8m, id=2ql9d12n2vzyj8m
+2022-07-06T02:04:19.998Z - info: Render request 3 queued for execution and waiting for availible worker rootId=m5v0iunvrs014w3, id=m5v0iunvrs014w3
+2022-07-06T02:04:20.006Z - error: Report render failed: Unexpected token } in JSON at position 60 SyntaxError: Unexpected token } in JSON at position 60
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:60:17)
+    at module.exports (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:36:23)
+    at WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:112:21)
+    at WorkerReporter.render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:128:17)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:174:12)
+    at Object.execute (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\workerHandler.js:52:23)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:41
+    at Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:25) rootId=m5v0iunvrs014w3, id=m5v0iunvrs014w3
+2022-07-06T02:04:31.397Z - info: Render request 4 queued for execution and waiting for availible worker rootId=ni2jm944hdwu4vk, id=ni2jm944hdwu4vk
+2022-07-06T02:04:31.418Z - info: Starting rendering request 4 (user: null) rootId=ni2jm944hdwu4vk, id=ni2jm944hdwu4vk
+2022-07-06T02:04:31.419Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ni2jm944hdwu4vk, id=ni2jm944hdwu4vk
+2022-07-06T02:04:31.720Z - info: Rendering request 4 finished in 316 ms rootId=ni2jm944hdwu4vk, id=ni2jm944hdwu4vk
+2022-07-06T02:05:15.682Z - info: Render request 5 queued for execution and waiting for availible worker rootId=566yh2vb0zlgyrv, id=566yh2vb0zlgyrv
+2022-07-06T02:05:15.694Z - info: Starting rendering request 5 (user: null) rootId=566yh2vb0zlgyrv, id=566yh2vb0zlgyrv
+2022-07-06T02:05:15.695Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=566yh2vb0zlgyrv, id=566yh2vb0zlgyrv
+2022-07-06T02:05:15.877Z - info: Rendering request 5 finished in 193 ms rootId=566yh2vb0zlgyrv, id=566yh2vb0zlgyrv
+2022-07-06T02:07:30.736Z - info: Render request 6 queued for execution and waiting for availible worker rootId=g9iwd4k3t6uvmr5, id=g9iwd4k3t6uvmr5
+2022-07-06T02:07:30.749Z - info: Starting rendering request 6 (user: null) rootId=g9iwd4k3t6uvmr5, id=g9iwd4k3t6uvmr5
+2022-07-06T02:07:30.749Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=g9iwd4k3t6uvmr5, id=g9iwd4k3t6uvmr5
+2022-07-06T02:07:30.919Z - info: Rendering request 6 finished in 181 ms rootId=g9iwd4k3t6uvmr5, id=g9iwd4k3t6uvmr5
+2022-07-06T02:08:03.233Z - info: Render request 7 queued for execution and waiting for availible worker rootId=hwk780kwuvv3gii, id=hwk780kwuvv3gii
+2022-07-06T02:08:03.241Z - info: Starting rendering request 7 (user: null) rootId=hwk780kwuvv3gii, id=hwk780kwuvv3gii
+2022-07-06T02:08:03.242Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=hwk780kwuvv3gii, id=hwk780kwuvv3gii
+2022-07-06T02:08:03.406Z - info: Rendering request 7 finished in 172 ms rootId=hwk780kwuvv3gii, id=hwk780kwuvv3gii
+2022-07-06T02:08:23.218Z - info: Render request 8 queued for execution and waiting for availible worker rootId=e5ie2h57mn026lo, id=e5ie2h57mn026lo
+2022-07-06T02:08:23.229Z - info: Starting rendering request 8 (user: null) rootId=e5ie2h57mn026lo, id=e5ie2h57mn026lo
+2022-07-06T02:08:23.229Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=e5ie2h57mn026lo, id=e5ie2h57mn026lo
+2022-07-06T02:08:23.390Z - info: Rendering request 8 finished in 171 ms rootId=e5ie2h57mn026lo, id=e5ie2h57mn026lo
+2022-07-06T02:08:31.965Z - info: Render request 9 queued for execution and waiting for availible worker rootId=9nwumy1fvfkpn0g, id=9nwumy1fvfkpn0g
+2022-07-06T02:08:31.974Z - info: Starting rendering request 9 (user: null) rootId=9nwumy1fvfkpn0g, id=9nwumy1fvfkpn0g
+2022-07-06T02:08:31.975Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=9nwumy1fvfkpn0g, id=9nwumy1fvfkpn0g
+2022-07-06T02:08:32.127Z - info: Rendering request 9 finished in 160 ms rootId=9nwumy1fvfkpn0g, id=9nwumy1fvfkpn0g
+2022-07-06T02:11:29.264Z - info: Render request 10 queued for execution and waiting for availible worker rootId=xevent1tjelf5ml, id=xevent1tjelf5ml
+2022-07-06T02:11:29.273Z - info: Starting rendering request 10 (user: null) rootId=xevent1tjelf5ml, id=xevent1tjelf5ml
+2022-07-06T02:11:29.274Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=xevent1tjelf5ml, id=xevent1tjelf5ml
+2022-07-06T02:11:29.430Z - info: Rendering request 10 finished in 164 ms rootId=xevent1tjelf5ml, id=xevent1tjelf5ml
+2022-07-06T02:11:45.351Z - info: Render request 11 queued for execution and waiting for availible worker rootId=2rc6gdtgm08qxsz, id=2rc6gdtgm08qxsz
+2022-07-06T02:11:45.366Z - info: Starting rendering request 11 (user: null) rootId=2rc6gdtgm08qxsz, id=2rc6gdtgm08qxsz
+2022-07-06T02:11:45.367Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=2rc6gdtgm08qxsz, id=2rc6gdtgm08qxsz
+2022-07-06T02:11:45.539Z - info: Rendering request 11 finished in 185 ms rootId=2rc6gdtgm08qxsz, id=2rc6gdtgm08qxsz
+2022-07-06T12:50:10.407Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-07-06T12:50:10.410Z - info: Searching for available extensions in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-06T12:50:10.462Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-06T12:50:10.516Z - info: Found 35 extension(s)
+2022-07-06T12:50:11.026Z - info: Using extension base@3.0.0
+2022-07-06T12:50:11.041Z - info: Using extension child-templates@3.0.3
+2022-07-06T12:50:11.050Z - info: Using extension cli@3.2.1
+2022-07-06T12:50:11.058Z - info: Using extension components@3.2.1
+2022-07-06T12:50:11.069Z - info: Using extension data@3.0.1
+2022-07-06T12:50:11.077Z - info: Using extension express@3.4.1
+2022-07-06T12:50:13.834Z - info: Using extension freeze@3.0.1
+2022-07-06T12:50:13.847Z - info: Using extension fs-store@3.2.1
+2022-07-06T12:50:14.843Z - info: Using extension handlebars@3.1.0
+2022-07-06T12:50:14.852Z - info: Using extension import-export@3.1.2
+2022-07-06T12:50:14.949Z - info: Using extension jsrender@3.0.0
+2022-07-06T12:50:14.955Z - info: Using extension licensing@3.0.2
+2022-07-06T12:50:15.104Z - info: Using extension localization@3.2.1
+2022-07-06T12:50:15.109Z - info: Using extension npm@3.1.2
+2022-07-06T12:50:15.121Z - info: Using extension pdf-utils@3.4.1
+2022-07-06T12:50:15.133Z - info: Using extension reports@3.0.5
+2022-07-06T12:50:15.147Z - info: Using extension tags@3.1.0
+2022-07-06T12:50:15.167Z - info: Using extension text@3.0.0
+2022-07-06T12:50:15.172Z - info: Using extension version-control@3.1.1
+2022-07-06T12:50:15.251Z - info: Using extension assets@3.4.2
+2022-07-06T12:50:15.347Z - info: Using extension authorization@3.2.1
+2022-07-06T12:50:15.382Z - info: Using extension browser-client@3.1.1
+2022-07-06T12:50:15.408Z - info: Using extension chrome-pdf@3.1.2
+2022-07-06T12:50:15.422Z - info: Using extension docx@3.3.1
+2022-07-06T12:50:15.432Z - info: Using extension html-to-xlsx@3.2.2
+2022-07-06T12:50:16.263Z - info: html-to-xlsx detected chrome as available html engine
+2022-07-06T12:50:16.263Z - info: Using extension pptx@3.2.1
+2022-07-06T12:50:16.274Z - info: Using extension scheduling@3.0.2
+2022-07-06T12:50:16.617Z - info: Using extension scripts@3.2.1
+2022-07-06T12:50:16.624Z - info: Using extension static-pdf@3.0.0
+2022-07-06T12:50:16.631Z - info: Using extension studio@3.6.0
+2022-07-06T12:50:17.142Z - info: Using extension xlsx@3.2.1
+2022-07-06T12:50:17.491Z - info: Using extension public-templates@3.0.0
+2022-07-06T12:50:17.500Z - info: Using extension sample-template@3.2.1
+2022-07-06T12:50:17.509Z - info: Using extension studio-theme-dark@3.0.1
+2022-07-06T12:50:17.520Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-07-06T12:50:17.521Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-07-06T12:50:17.521Z - info: Using fs provider for template store.
+2022-07-06T12:50:17.526Z - info: fs store is persisting using fs for C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\data
+2022-07-06T12:50:17.532Z - info: fs store is loading data
+2022-07-06T12:50:17.606Z - info: fs store is initialized successfully
+2022-07-06T12:50:17.619Z - info: Creating default express app.
+2022-07-06T12:50:18.055Z - info: jsreport server successfully started on http port: 5488
+2022-07-06T12:50:18.056Z - info: Verifying license key free
+2022-07-06T12:50:18.057Z - info: Using free license
+2022-07-06T12:50:18.061Z - info: Initializing worker threads
+2022-07-06T12:50:19.871Z - info: 2 worker threads initialized in 1810ms
+2022-07-06T12:50:19.872Z - info: Starting temp files cleanup with 180000ms threshold
+2022-07-06T12:50:19.873Z - info: reporter initialized
+2022-07-06T12:50:57.950Z - info: Render request 1 queued for execution and waiting for availible worker rootId=1cmnfgo9ezeo5rc, id=1cmnfgo9ezeo5rc
+2022-07-06T12:50:58.423Z - info: Starting rendering request 1 (user: null) rootId=1cmnfgo9ezeo5rc, id=1cmnfgo9ezeo5rc
+2022-07-06T12:50:58.424Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=1cmnfgo9ezeo5rc, id=1cmnfgo9ezeo5rc
+2022-07-06T12:51:03.741Z - info: Rendering request 1 finished in 5792 ms rootId=1cmnfgo9ezeo5rc, id=1cmnfgo9ezeo5rc
+2022-07-06T12:51:17.507Z - info: Render request 2 queued for execution and waiting for availible worker rootId=o5xm128eha35xc0, id=o5xm128eha35xc0
+2022-07-06T12:51:17.522Z - info: Starting rendering request 2 (user: null) rootId=o5xm128eha35xc0, id=o5xm128eha35xc0
+2022-07-06T12:51:17.523Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=o5xm128eha35xc0, id=o5xm128eha35xc0
+2022-07-06T12:51:17.718Z - info: Rendering request 2 finished in 209 ms rootId=o5xm128eha35xc0, id=o5xm128eha35xc0
+2022-07-06T12:52:25.847Z - info: Render request 3 queued for execution and waiting for availible worker rootId=qykdn6l0on1g3mz, id=qykdn6l0on1g3mz
+2022-07-06T12:52:25.858Z - info: Starting rendering request 3 (user: null) rootId=qykdn6l0on1g3mz, id=qykdn6l0on1g3mz
+2022-07-06T12:52:25.859Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=qykdn6l0on1g3mz, id=qykdn6l0on1g3mz
+2022-07-06T12:52:26.012Z - info: Rendering request 3 finished in 162 ms rootId=qykdn6l0on1g3mz, id=qykdn6l0on1g3mz
+2022-07-06T12:52:32.048Z - info: Render request 4 queued for execution and waiting for availible worker rootId=r5sr800o390wazf, id=r5sr800o390wazf
+2022-07-06T12:52:32.065Z - info: Starting rendering request 4 (user: null) rootId=r5sr800o390wazf, id=r5sr800o390wazf
+2022-07-06T12:52:32.065Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=r5sr800o390wazf, id=r5sr800o390wazf
+2022-07-06T12:52:32.304Z - info: Rendering request 4 finished in 256 ms rootId=r5sr800o390wazf, id=r5sr800o390wazf
+2022-07-06T12:52:55.068Z - info: Render request 5 queued for execution and waiting for availible worker rootId=8m4josr0g0z2tiy, id=8m4josr0g0z2tiy
+2022-07-06T12:52:55.081Z - info: Starting rendering request 5 (user: null) rootId=8m4josr0g0z2tiy, id=8m4josr0g0z2tiy
+2022-07-06T12:52:55.081Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=8m4josr0g0z2tiy, id=8m4josr0g0z2tiy
+2022-07-06T12:52:55.311Z - info: Rendering request 5 finished in 243 ms rootId=8m4josr0g0z2tiy, id=8m4josr0g0z2tiy
+2022-07-06T12:53:36.113Z - info: Render request 6 queued for execution and waiting for availible worker rootId=ieta0zaogge3nvq, id=ieta0zaogge3nvq
+2022-07-06T12:53:36.128Z - info: Starting rendering request 6 (user: null) rootId=ieta0zaogge3nvq, id=ieta0zaogge3nvq
+2022-07-06T12:53:36.128Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=ieta0zaogge3nvq, id=ieta0zaogge3nvq
+2022-07-06T12:53:36.365Z - info: Rendering request 6 finished in 251 ms rootId=ieta0zaogge3nvq, id=ieta0zaogge3nvq
+2022-07-06T12:54:16.611Z - info: Render request 7 queued for execution and waiting for availible worker rootId=dy55y0fapczqr8u, id=dy55y0fapczqr8u
+2022-07-06T12:54:16.624Z - info: Starting rendering request 7 (user: null) rootId=dy55y0fapczqr8u, id=dy55y0fapczqr8u
+2022-07-06T12:54:16.625Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=dy55y0fapczqr8u, id=dy55y0fapczqr8u
+2022-07-06T12:54:16.626Z - warn: Error when processing render request 7 Request data can not be an array. you should pass an object in request.data input Error: Request data can not be an array. you should pass an object in request.data input
+    at module.exports (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:47:12)
+    at invokeRender (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:49:22)
+    at WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=dy55y0fapczqr8u, id=dy55y0fapczqr8u
+2022-07-06T12:54:16.628Z - warn: Rendering request 7 finished with error in 13 ms rootId=dy55y0fapczqr8u, id=dy55y0fapczqr8u
+2022-07-06T12:54:16.630Z - warn: Error during processing request at http://localhost:5488/api/report
+2022-07-06T12:58:19.409Z - info: Render request 8 queued for execution and waiting for availible worker rootId=obwpaaa6rwxokth, id=obwpaaa6rwxokth
+2022-07-06T12:58:19.444Z - info: Starting rendering request 8 (user: null) rootId=obwpaaa6rwxokth, id=obwpaaa6rwxokth
+2022-07-06T12:58:19.445Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=obwpaaa6rwxokth, id=obwpaaa6rwxokth
+2022-07-06T12:58:29.195Z - info: pdf-utils is starting pdf processing rootId=obwpaaa6rwxokth, id=obwpaaa6rwxokth
+2022-07-06T12:58:29.210Z - info: Starting rendering request 8 (user: null) rootId=obwpaaa6rwxokth, id=8leetbe32kpgxyl
+2022-07-06T12:58:29.211Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=obwpaaa6rwxokth, id=8leetbe32kpgxyl
+2022-07-06T12:58:29.662Z - info: Rendering request 8 finished in 10125 ms rootId=obwpaaa6rwxokth, id=8leetbe32kpgxyl
+2022-07-06T12:58:29.664Z - info: pdf-utils pdf processing was finished rootId=obwpaaa6rwxokth, id=obwpaaa6rwxokth
+2022-07-06T12:58:29.665Z - info: Rendering request 8 finished in 10254 ms rootId=obwpaaa6rwxokth, id=obwpaaa6rwxokth
+2022-07-06T12:59:15.195Z - info: Render request 9 queued for execution and waiting for availible worker rootId=z7ktxs80a9hn2i8, id=z7ktxs80a9hn2i8
+2022-07-06T12:59:15.215Z - info: Starting rendering request 9 (user: null) rootId=z7ktxs80a9hn2i8, id=z7ktxs80a9hn2i8
+2022-07-06T12:59:15.215Z - info: Rendering template { name: sales-main, recipe: html-to-xlsx, engine: handlebars, preview: true } rootId=z7ktxs80a9hn2i8, id=z7ktxs80a9hn2i8
+2022-07-06T12:59:18.943Z - info: html-to-xlsx generation is starting rootId=z7ktxs80a9hn2i8, id=z7ktxs80a9hn2i8
+2022-07-06T12:59:20.729Z - info: html-to-xlsx generation was finished rootId=z7ktxs80a9hn2i8, id=z7ktxs80a9hn2i8
+2022-07-06T12:59:21.415Z - info: Rendering request 9 finished in 6219 ms rootId=z7ktxs80a9hn2i8, id=z7ktxs80a9hn2i8
+2022-07-06T12:59:40.110Z - info: Render request 10 queued for execution and waiting for availible worker rootId=9ka3f71ywevxmrf, id=9ka3f71ywevxmrf
+2022-07-06T12:59:40.134Z - info: Starting rendering request 10 (user: null) rootId=9ka3f71ywevxmrf, id=9ka3f71ywevxmrf
+2022-07-06T12:59:40.135Z - info: Rendering template { name: orders-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9ka3f71ywevxmrf, id=9ka3f71ywevxmrf
+2022-07-06T12:59:42.702Z - info: pdf-utils is starting pdf processing rootId=9ka3f71ywevxmrf, id=9ka3f71ywevxmrf
+2022-07-06T12:59:42.713Z - info: Starting rendering request 10 (user: null) rootId=9ka3f71ywevxmrf, id=o0gyul8degzjva9
+2022-07-06T12:59:42.714Z - info: Rendering template { name: orders-header, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=9ka3f71ywevxmrf, id=o0gyul8degzjva9
+2022-07-06T12:59:43.093Z - info: Rendering request 10 finished in 2927 ms rootId=9ka3f71ywevxmrf, id=o0gyul8degzjva9
+2022-07-06T12:59:43.095Z - info: pdf-utils pdf processing was finished rootId=9ka3f71ywevxmrf, id=9ka3f71ywevxmrf
+2022-07-06T12:59:43.095Z - info: Rendering request 10 finished in 2982 ms rootId=9ka3f71ywevxmrf, id=9ka3f71ywevxmrf
+2022-07-06T13:10:19.593Z - info: Verifying license key free
+2022-07-06T13:10:21.302Z - info: Starting one month enterprise trial
+2022-07-06T13:11:10.644Z - info: Render request 11 queued for execution and waiting for availible worker rootId=j5cxe93d5fz4hqm, id=j5cxe93d5fz4hqm
+2022-07-06T13:11:10.659Z - info: Starting rendering request 11 (user: null) rootId=j5cxe93d5fz4hqm, id=j5cxe93d5fz4hqm
+2022-07-06T13:11:10.660Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=j5cxe93d5fz4hqm, id=j5cxe93d5fz4hqm
+2022-07-06T13:11:10.662Z - warn: Error when processing render request 11 Request data can not be an array. you should pass an object in request.data input Error: Request data can not be an array. you should pass an object in request.data input
+    at module.exports (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:47:12)
+    at invokeRender (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:49:22)
+    at WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=j5cxe93d5fz4hqm, id=j5cxe93d5fz4hqm
+2022-07-06T13:11:10.664Z - warn: Rendering request 11 finished with error in 15 ms rootId=j5cxe93d5fz4hqm, id=j5cxe93d5fz4hqm
+2022-07-06T13:11:23.738Z - info: Render request 12 queued for execution and waiting for availible worker rootId=qqvwrr4o8cr42o3, id=qqvwrr4o8cr42o3
+2022-07-06T13:11:23.753Z - info: Starting rendering request 12 (user: null) rootId=qqvwrr4o8cr42o3, id=qqvwrr4o8cr42o3
+2022-07-06T13:11:23.753Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=qqvwrr4o8cr42o3, id=qqvwrr4o8cr42o3
+2022-07-06T13:11:23.755Z - warn: Error when processing render request 12 Request data can not be an array. you should pass an object in request.data input Error: Request data can not be an array. you should pass an object in request.data input
+    at module.exports (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:47:12)
+    at invokeRender (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:49:22)
+    at WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=qqvwrr4o8cr42o3, id=qqvwrr4o8cr42o3
+2022-07-06T13:11:23.761Z - warn: Rendering request 12 finished with error in 14 ms rootId=qqvwrr4o8cr42o3, id=qqvwrr4o8cr42o3
+2022-07-06T13:13:03.778Z - info: Render request 13 queued for execution and waiting for availible worker rootId=ylsx4k8vuv2vt9c, id=ylsx4k8vuv2vt9c
+2022-07-06T13:13:03.792Z - info: Starting rendering request 13 (user: null) rootId=ylsx4k8vuv2vt9c, id=ylsx4k8vuv2vt9c
+2022-07-06T13:13:03.793Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ylsx4k8vuv2vt9c, id=ylsx4k8vuv2vt9c
+2022-07-06T13:13:03.813Z - warn: Error when processing render request 13 Error when evaluating engine handlebars for template /teste2/lista
+Missing helper: "tax"
+
+(sandbox.js line 13:18) Error: Missing helper: "tax"
+    at Object.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\handlebars\dist\cjs\handlebars\helpers\helper-missing.js:19:13)
+    at Object.wrapper (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at 1 (eval at compile (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:30), <anonymous>:18:100)
+    at prog (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\handlebars\dist\cjs\handlebars\runtime.js:268:12)
+    at execIteration (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\handlebars\dist\cjs\handlebars\helpers\each.js:51:19)
+    at Object.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\handlebars\dist\cjs\handlebars\helpers\each.js:61:13)
+    at Object.wrapper (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:30), <anonymous>:30:52)
+    at main (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:66:14)
+    at Object.execute (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+    at executionFn (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:203:40)
+    at sandbox.js:13:18 rootId=ylsx4k8vuv2vt9c, id=ylsx4k8vuv2vt9c
+2022-07-06T13:13:03.819Z - warn: Rendering request 13 finished with error in 35 ms rootId=ylsx4k8vuv2vt9c, id=ylsx4k8vuv2vt9c
+2022-07-06T13:16:47.121Z - info: Render request 14 queued for execution and waiting for availible worker rootId=yuoohrt5bzlwls6, id=yuoohrt5bzlwls6
+2022-07-06T13:16:47.149Z - error: Report render failed: Unexpected token i in JSON at position 0 SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:60:17)
+    at module.exports (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:36:23)
+    at WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:112:21)
+    at WorkerReporter.render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:128:17)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:174:12)
+    at Object.execute (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\workerHandler.js:52:23)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:41
+    at Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:25)
+    at Domain.run (node:domain:378:15)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:139:7
+    at new Promise (<anonymous>)
+    at runInDomain (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:134:10)
+    at execute (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:10)
+    at processAndResponse (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:43:23) rootId=yuoohrt5bzlwls6, id=yuoohrt5bzlwls6
+2022-07-06T13:16:59.830Z - info: Render request 15 queued for execution and waiting for availible worker rootId=xgzi4roaf1tc6yq, id=xgzi4roaf1tc6yq
+2022-07-06T13:16:59.871Z - info: Starting rendering request 15 (user: null) rootId=xgzi4roaf1tc6yq, id=xgzi4roaf1tc6yq
+2022-07-06T13:16:59.872Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=xgzi4roaf1tc6yq, id=xgzi4roaf1tc6yq
+2022-07-06T13:16:59.874Z - warn: Error when processing render request 15 Request data can not be an array. you should pass an object in request.data input Error: Request data can not be an array. you should pass an object in request.data input
+    at module.exports (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:47:12)
+    at invokeRender (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:49:22)
+    at WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=xgzi4roaf1tc6yq, id=xgzi4roaf1tc6yq
+2022-07-06T13:16:59.876Z - warn: Rendering request 15 finished with error in 41 ms rootId=xgzi4roaf1tc6yq, id=xgzi4roaf1tc6yq
+2022-07-06T13:17:33.907Z - info: Render request 16 queued for execution and waiting for availible worker rootId=jwu1x0v3v2gl4mv, id=jwu1x0v3v2gl4mv
+2022-07-06T13:17:33.922Z - info: Starting rendering request 16 (user: null) rootId=jwu1x0v3v2gl4mv, id=jwu1x0v3v2gl4mv
+2022-07-06T13:17:33.924Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=jwu1x0v3v2gl4mv, id=jwu1x0v3v2gl4mv
+2022-07-06T13:17:34.090Z - info: Rendering request 16 finished in 182 ms rootId=jwu1x0v3v2gl4mv, id=jwu1x0v3v2gl4mv
+2022-07-06T13:50:05.057Z - info: Render request 17 queued for execution and waiting for availible worker rootId=h1u221dz76drvqy, id=h1u221dz76drvqy
+2022-07-06T13:50:05.073Z - info: Starting rendering request 17 (user: null) rootId=h1u221dz76drvqy, id=h1u221dz76drvqy
+2022-07-06T13:50:05.074Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=h1u221dz76drvqy, id=h1u221dz76drvqy
+2022-07-06T13:50:05.254Z - info: Rendering request 17 finished in 196 ms rootId=h1u221dz76drvqy, id=h1u221dz76drvqy
+2022-07-06T13:53:28.415Z - info: Render request 18 queued for execution and waiting for availible worker rootId=6rugxytvhawf0g6, id=6rugxytvhawf0g6
+2022-07-06T13:53:28.431Z - info: Starting rendering request 18 (user: null) rootId=6rugxytvhawf0g6, id=6rugxytvhawf0g6
+2022-07-06T13:53:28.431Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6rugxytvhawf0g6, id=6rugxytvhawf0g6
+2022-07-06T13:53:31.490Z - info: Rendering request 18 finished in 3073 ms rootId=6rugxytvhawf0g6, id=6rugxytvhawf0g6
+2022-07-06T14:00:53.777Z - info: Render request 19 queued for execution and waiting for availible worker rootId=823p7n2j0tfzcbx, id=823p7n2j0tfzcbx
+2022-07-06T14:00:53.797Z - info: Starting rendering request 19 (user: null) rootId=823p7n2j0tfzcbx, id=823p7n2j0tfzcbx
+2022-07-06T14:00:53.798Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=823p7n2j0tfzcbx, id=823p7n2j0tfzcbx
+2022-07-06T14:00:53.872Z - warn: Error when processing render request 19 Error when evaluating engine handlebars for template /teste2/lista
+Asset medalha.css not found in the store and also not on the disk: Unable to find or read file C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\medalha.css. ENOENT: no such file or directory, open 'C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\medalha.css'
+
+(system-helpers.js line 277:20)
+
+  275 |
+  276 |   const jsreport = require('jsreport-proxy')
+> 277 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  278 |   return assetVal
+  279 | }
+  280 |
+
+ Error: Asset medalha.css not found in the store and also not on the disk: Unable to find or read file C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\medalha.css. ENOENT: no such file or directory, open 'C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\medalha.css'
+    at readAsset (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:117:15)
+    at async Object.read (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-assets\lib\worker.js:112:19)
+    at async Object.asset (system-helpers.js:277:20)
+    at async C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:209:40
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:208:9)
+    at async run (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:184:24)
+    at async executeEngine (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:250:14)
+    at async engine.engine (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:109:14)
+    at async invokeRender (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:62:23)
+    at async WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:7)
+    at async C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=823p7n2j0tfzcbx, id=823p7n2j0tfzcbx
+2022-07-06T14:00:53.878Z - warn: Rendering request 19 finished with error in 95 ms rootId=823p7n2j0tfzcbx, id=823p7n2j0tfzcbx
+2022-07-06T14:01:35.409Z - info: Render request 20 queued for execution and waiting for availible worker rootId=jujzji9g9zej76s, id=jujzji9g9zej76s
+2022-07-06T14:01:35.433Z - info: Starting rendering request 20 (user: null) rootId=jujzji9g9zej76s, id=jujzji9g9zej76s
+2022-07-06T14:01:35.434Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=jujzji9g9zej76s, id=jujzji9g9zej76s
+2022-07-06T14:01:38.979Z - info: Rendering request 20 finished in 3569 ms rootId=jujzji9g9zej76s, id=jujzji9g9zej76s
+2022-07-06T14:02:10.981Z - info: Render request 21 queued for execution and waiting for availible worker rootId=phbt0vfstszr62w, id=phbt0vfstszr62w
+2022-07-06T14:02:10.999Z - info: Starting rendering request 21 (user: null) rootId=phbt0vfstszr62w, id=phbt0vfstszr62w
+2022-07-06T14:02:11.000Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=phbt0vfstszr62w, id=phbt0vfstszr62w
+2022-07-06T14:02:15.001Z - info: Rendering request 21 finished in 4020 ms rootId=phbt0vfstszr62w, id=phbt0vfstszr62w
+2022-07-06T14:05:37.625Z - info: Render request 22 queued for execution and waiting for availible worker rootId=jn3n70s2x9nvfnd, id=jn3n70s2x9nvfnd
+2022-07-06T14:05:37.642Z - info: Starting rendering request 22 (user: null) rootId=jn3n70s2x9nvfnd, id=jn3n70s2x9nvfnd
+2022-07-06T14:05:37.642Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=jn3n70s2x9nvfnd, id=jn3n70s2x9nvfnd
+2022-07-06T14:05:37.858Z - warn: Page request failed: GET (stylesheet) file:///C:/css/medalha.css, failure: net::ERR_FILE_NOT_FOUND rootId=jn3n70s2x9nvfnd, id=jn3n70s2x9nvfnd
+2022-07-06T14:05:37.862Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=jn3n70s2x9nvfnd, id=jn3n70s2x9nvfnd
+2022-07-06T14:05:41.875Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=jn3n70s2x9nvfnd, id=jn3n70s2x9nvfnd
+2022-07-06T14:05:41.999Z - info: Rendering request 22 finished in 4374 ms rootId=jn3n70s2x9nvfnd, id=jn3n70s2x9nvfnd
+2022-07-06T14:07:22.213Z - info: Render request 23 queued for execution and waiting for availible worker rootId=jib3m7fuxarx8kg, id=jib3m7fuxarx8kg
+2022-07-06T14:07:22.226Z - info: Starting rendering request 23 (user: null) rootId=jib3m7fuxarx8kg, id=jib3m7fuxarx8kg
+2022-07-06T14:07:22.227Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=jib3m7fuxarx8kg, id=jib3m7fuxarx8kg
+2022-07-06T14:07:22.248Z - warn: Error when processing render request 23 Error when evaluating engine handlebars for template /teste2/lista
+Asset medalha.css not found in the store and also not on the disk: Unable to find or read file C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\medalha.css. ENOENT: no such file or directory, open 'C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\medalha.css'
+
+(system-helpers.js line 277:20)
+
+  275 |
+  276 |   const jsreport = require('jsreport-proxy')
+> 277 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  278 |   return assetVal
+  279 | }
+  280 |
+
+ Error: Asset medalha.css not found in the store and also not on the disk: Unable to find or read file C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\medalha.css. ENOENT: no such file or directory, open 'C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\medalha.css'
+    at readAsset (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:117:15)
+    at async Object.read (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-assets\lib\worker.js:112:19)
+    at async Object.asset (system-helpers.js:277:20)
+    at async C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:209:40
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:208:9)
+    at async run (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:184:24)
+    at async executeEngine (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:250:14)
+    at async engine.engine (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:109:14)
+    at async invokeRender (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:62:23)
+    at async WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:147:7)
+    at async C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:19
+    at async Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:19) rootId=jib3m7fuxarx8kg, id=jib3m7fuxarx8kg
+2022-07-06T14:07:22.254Z - warn: Rendering request 23 finished with error in 36 ms rootId=jib3m7fuxarx8kg, id=jib3m7fuxarx8kg
+2022-07-06T14:07:28.995Z - info: Render request 24 queued for execution and waiting for availible worker rootId=rr8g3l1r28tx0m2, id=rr8g3l1r28tx0m2
+2022-07-06T14:07:29.009Z - info: Starting rendering request 24 (user: null) rootId=rr8g3l1r28tx0m2, id=rr8g3l1r28tx0m2
+2022-07-06T14:07:29.009Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=rr8g3l1r28tx0m2, id=rr8g3l1r28tx0m2
+2022-07-06T14:07:29.157Z - warn: Page request failed: GET (stylesheet) file:///C:/css/medalha.css, failure: net::ERR_FILE_NOT_FOUND rootId=rr8g3l1r28tx0m2, id=rr8g3l1r28tx0m2
+2022-07-06T14:07:29.160Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=rr8g3l1r28tx0m2, id=rr8g3l1r28tx0m2
+2022-07-06T14:07:29.263Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=rr8g3l1r28tx0m2, id=rr8g3l1r28tx0m2
+2022-07-06T14:07:29.265Z - warn: Page request failed: GET (image) file:///C:/Users/lucas/AppData/Local/img/10/10.png, failure: net::ERR_FILE_NOT_FOUND rootId=rr8g3l1r28tx0m2, id=rr8g3l1r28tx0m2
+2022-07-06T14:07:29.360Z - info: Rendering request 24 finished in 364 ms rootId=rr8g3l1r28tx0m2, id=rr8g3l1r28tx0m2
+2022-07-06T14:07:42.012Z - info: Render request 25 queued for execution and waiting for availible worker rootId=irzwqnhgkv643o6, id=irzwqnhgkv643o6
+2022-07-06T14:07:42.027Z - info: Starting rendering request 25 (user: null) rootId=irzwqnhgkv643o6, id=irzwqnhgkv643o6
+2022-07-06T14:07:42.027Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=irzwqnhgkv643o6, id=irzwqnhgkv643o6
+2022-07-06T14:07:42.216Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=irzwqnhgkv643o6, id=irzwqnhgkv643o6
+2022-07-06T14:07:42.318Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=irzwqnhgkv643o6, id=irzwqnhgkv643o6
+2022-07-06T14:07:42.319Z - warn: Page request failed: GET (image) file:///C:/Users/lucas/AppData/Local/img/10/10.png, failure: net::ERR_FILE_NOT_FOUND rootId=irzwqnhgkv643o6, id=irzwqnhgkv643o6
+2022-07-06T14:07:42.406Z - info: Rendering request 25 finished in 393 ms rootId=irzwqnhgkv643o6, id=irzwqnhgkv643o6
+2022-07-06T14:08:00.017Z - info: Render request 26 queued for execution and waiting for availible worker rootId=pcxtxwwkislrd43, id=pcxtxwwkislrd43
+2022-07-06T14:08:00.031Z - info: Starting rendering request 26 (user: null) rootId=pcxtxwwkislrd43, id=pcxtxwwkislrd43
+2022-07-06T14:08:00.032Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=pcxtxwwkislrd43, id=pcxtxwwkislrd43
+2022-07-06T14:08:00.180Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=pcxtxwwkislrd43, id=pcxtxwwkislrd43
+2022-07-06T14:08:00.288Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=pcxtxwwkislrd43, id=pcxtxwwkislrd43
+2022-07-06T14:08:00.289Z - warn: Page request failed: GET (image) file:///C:/Users/lucas/AppData/Local/img/10/10.png, failure: net::ERR_FILE_NOT_FOUND rootId=pcxtxwwkislrd43, id=pcxtxwwkislrd43
+2022-07-06T14:08:00.374Z - info: Rendering request 26 finished in 356 ms rootId=pcxtxwwkislrd43, id=pcxtxwwkislrd43
+2022-07-06T14:09:29.833Z - info: Render request 27 queued for execution and waiting for availible worker rootId=y60n5osx91h5sya, id=y60n5osx91h5sya
+2022-07-06T14:09:29.846Z - info: Starting rendering request 27 (user: null) rootId=y60n5osx91h5sya, id=y60n5osx91h5sya
+2022-07-06T14:09:29.847Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=y60n5osx91h5sya, id=y60n5osx91h5sya
+2022-07-06T14:09:30.009Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=y60n5osx91h5sya, id=y60n5osx91h5sya
+2022-07-06T14:09:30.015Z - warn: Page request failed: GET (image) file:///C:/Users/lucas/AppData/Local/img/10/10.png, failure: net::ERR_FILE_NOT_FOUND rootId=y60n5osx91h5sya, id=y60n5osx91h5sya
+2022-07-06T14:09:30.141Z - info: Rendering request 27 finished in 308 ms rootId=y60n5osx91h5sya, id=y60n5osx91h5sya
+2022-07-06T14:11:48.255Z - info: Render request 28 queued for execution and waiting for availible worker rootId=ddc5ef2hc543qi3, id=ddc5ef2hc543qi3
+2022-07-06T14:11:48.268Z - info: Starting rendering request 28 (user: null) rootId=ddc5ef2hc543qi3, id=ddc5ef2hc543qi3
+2022-07-06T14:11:48.269Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ddc5ef2hc543qi3, id=ddc5ef2hc543qi3
+2022-07-06T14:11:48.412Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=ddc5ef2hc543qi3, id=ddc5ef2hc543qi3
+2022-07-06T14:11:48.512Z - warn: Page request failed: GET (image) file:///C:/Users/lucas/AppData/Local/img/10/10.png, failure: net::ERR_FILE_NOT_FOUND rootId=ddc5ef2hc543qi3, id=ddc5ef2hc543qi3
+2022-07-06T14:11:48.559Z - info: Rendering request 28 finished in 303 ms rootId=ddc5ef2hc543qi3, id=ddc5ef2hc543qi3
+2022-07-06T14:12:06.339Z - info: Render request 29 queued for execution and waiting for availible worker rootId=97nktazmgj34wvx, id=97nktazmgj34wvx
+2022-07-06T14:12:06.352Z - info: Starting rendering request 29 (user: null) rootId=97nktazmgj34wvx, id=97nktazmgj34wvx
+2022-07-06T14:12:06.353Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=97nktazmgj34wvx, id=97nktazmgj34wvx
+2022-07-06T14:12:06.569Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=97nktazmgj34wvx, id=97nktazmgj34wvx
+2022-07-06T14:12:06.571Z - warn: Page request failed: GET (image) file:///C:/Users/lucas/AppData/Local/img/10/10.png, failure: net::ERR_FILE_NOT_FOUND rootId=97nktazmgj34wvx, id=97nktazmgj34wvx
+2022-07-06T14:12:06.591Z - info: Rendering request 29 finished in 251 ms rootId=97nktazmgj34wvx, id=97nktazmgj34wvx
+2022-07-06T14:12:12.702Z - info: Render request 30 queued for execution and waiting for availible worker rootId=tgmkq9zl87ddmbi, id=tgmkq9zl87ddmbi
+2022-07-06T14:12:12.713Z - info: Starting rendering request 30 (user: null) rootId=tgmkq9zl87ddmbi, id=tgmkq9zl87ddmbi
+2022-07-06T14:12:12.714Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=tgmkq9zl87ddmbi, id=tgmkq9zl87ddmbi
+2022-07-06T14:12:12.885Z - warn: Page request failed: GET (image) file:///C:/img/logo.png, failure: net::ERR_FILE_NOT_FOUND rootId=tgmkq9zl87ddmbi, id=tgmkq9zl87ddmbi
+2022-07-06T14:12:12.889Z - warn: Page request failed: GET (image) file:///C:/Users/lucas/AppData/Local/img/10/10.png, failure: net::ERR_FILE_NOT_FOUND rootId=tgmkq9zl87ddmbi, id=tgmkq9zl87ddmbi
+2022-07-06T14:12:12.976Z - info: Rendering request 30 finished in 273 ms rootId=tgmkq9zl87ddmbi, id=tgmkq9zl87ddmbi
+2022-07-06T14:12:42.831Z - info: Render request 31 queued for execution and waiting for availible worker rootId=3tr46lmnbabbhl8, id=3tr46lmnbabbhl8
+2022-07-06T14:12:42.845Z - info: Starting rendering request 31 (user: null) rootId=3tr46lmnbabbhl8, id=3tr46lmnbabbhl8
+2022-07-06T14:12:42.846Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=3tr46lmnbabbhl8, id=3tr46lmnbabbhl8
+2022-07-06T14:12:43.347Z - warn: Page request failed: GET (image) file:///C:/Users/lucas/AppData/Local/img/10/10.png, failure: net::ERR_FILE_NOT_FOUND rootId=3tr46lmnbabbhl8, id=3tr46lmnbabbhl8
+2022-07-06T14:12:45.702Z - info: Rendering request 31 finished in 2870 ms rootId=3tr46lmnbabbhl8, id=3tr46lmnbabbhl8
+2022-07-06T14:24:50.065Z - info: Render request 32 queued for execution and waiting for availible worker rootId=5tn74bzwg8ew02s, id=5tn74bzwg8ew02s
+2022-07-06T14:24:50.081Z - info: Starting rendering request 32 (user: null) rootId=5tn74bzwg8ew02s, id=5tn74bzwg8ew02s
+2022-07-06T14:24:50.082Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=5tn74bzwg8ew02s, id=5tn74bzwg8ew02s
+2022-07-06T14:24:50.979Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=5tn74bzwg8ew02s, id=5tn74bzwg8ew02s
+2022-07-06T14:24:53.634Z - info: Rendering request 32 finished in 3567 ms rootId=5tn74bzwg8ew02s, id=5tn74bzwg8ew02s
+2022-07-06T14:52:39.196Z - info: Render request 33 queued for execution and waiting for availible worker rootId=o6540i2jhagjkxu, id=o6540i2jhagjkxu
+2022-07-06T14:52:39.221Z - info: Starting rendering request 33 (user: null) rootId=o6540i2jhagjkxu, id=o6540i2jhagjkxu
+2022-07-06T14:52:39.222Z - info: Rendering template { name: teste, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=o6540i2jhagjkxu, id=o6540i2jhagjkxu
+2022-07-06T14:52:39.725Z - info: Rendering request 33 finished in 527 ms rootId=o6540i2jhagjkxu, id=o6540i2jhagjkxu
+2022-07-06T14:52:44.206Z - info: Render request 34 queued for execution and waiting for availible worker rootId=o3lrnz8buv0oxw4, id=o3lrnz8buv0oxw4
+2022-07-06T14:52:44.220Z - info: Starting rendering request 34 (user: null) rootId=o3lrnz8buv0oxw4, id=o3lrnz8buv0oxw4
+2022-07-06T14:52:44.220Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=o3lrnz8buv0oxw4, id=o3lrnz8buv0oxw4
+2022-07-06T14:52:45.019Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=o3lrnz8buv0oxw4, id=o3lrnz8buv0oxw4
+2022-07-06T14:52:47.553Z - info: Rendering request 34 finished in 3346 ms rootId=o3lrnz8buv0oxw4, id=o3lrnz8buv0oxw4
+2022-07-06T14:57:51.166Z - info: Render request 35 queued for execution and waiting for availible worker rootId=vp2xxs6bvz62skp, id=vp2xxs6bvz62skp
+2022-07-06T14:57:51.216Z - info: Starting rendering request 35 (user: null) rootId=vp2xxs6bvz62skp, id=vp2xxs6bvz62skp
+2022-07-06T14:57:51.217Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=vp2xxs6bvz62skp, id=vp2xxs6bvz62skp
+2022-07-06T14:57:52.345Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=vp2xxs6bvz62skp, id=vp2xxs6bvz62skp
+2022-07-06T14:57:55.350Z - info: Rendering request 35 finished in 4183 ms rootId=vp2xxs6bvz62skp, id=vp2xxs6bvz62skp
+2022-07-06T14:58:03.200Z - info: Render request 36 queued for execution and waiting for availible worker rootId=k37smtpaa3qb320, id=k37smtpaa3qb320
+2022-07-06T14:58:03.214Z - info: Starting rendering request 36 (user: null) rootId=k37smtpaa3qb320, id=k37smtpaa3qb320
+2022-07-06T14:58:03.214Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=k37smtpaa3qb320, id=k37smtpaa3qb320
+2022-07-06T14:58:04.150Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=k37smtpaa3qb320, id=k37smtpaa3qb320
+2022-07-06T14:58:07.227Z - info: Rendering request 36 finished in 4027 ms rootId=k37smtpaa3qb320, id=k37smtpaa3qb320
+2022-07-06T14:59:03.271Z - info: Render request 37 queued for execution and waiting for availible worker rootId=y2dg3k0w0uejazs, id=y2dg3k0w0uejazs
+2022-07-06T14:59:03.295Z - info: Starting rendering request 37 (user: null) rootId=y2dg3k0w0uejazs, id=y2dg3k0w0uejazs
+2022-07-06T14:59:03.295Z - info: Rendering template { name: invoice-main, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=y2dg3k0w0uejazs, id=y2dg3k0w0uejazs
+2022-07-06T14:59:03.555Z - info: Rendering request 37 finished in 282 ms rootId=y2dg3k0w0uejazs, id=y2dg3k0w0uejazs
+2022-07-06T14:59:40.070Z - info: Render request 38 queued for execution and waiting for availible worker rootId=af5lu1lgnfqmtev, id=af5lu1lgnfqmtev
+2022-07-06T14:59:40.083Z - info: Starting rendering request 38 (user: null) rootId=af5lu1lgnfqmtev, id=af5lu1lgnfqmtev
+2022-07-06T14:59:40.084Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=af5lu1lgnfqmtev, id=af5lu1lgnfqmtev
+2022-07-06T14:59:40.862Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=af5lu1lgnfqmtev, id=af5lu1lgnfqmtev
+2022-07-06T14:59:41.199Z - info: Rendering request 38 finished in 1127 ms rootId=af5lu1lgnfqmtev, id=af5lu1lgnfqmtev
+2022-07-06T14:59:55.082Z - info: Render request 39 queued for execution and waiting for availible worker rootId=bktobz4lda0m8jz, id=bktobz4lda0m8jz
+2022-07-06T14:59:55.098Z - info: Starting rendering request 39 (user: null) rootId=bktobz4lda0m8jz, id=bktobz4lda0m8jz
+2022-07-06T14:59:55.100Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=bktobz4lda0m8jz, id=bktobz4lda0m8jz
+2022-07-06T14:59:55.880Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=bktobz4lda0m8jz, id=bktobz4lda0m8jz
+2022-07-06T14:59:58.567Z - info: Rendering request 39 finished in 3484 ms rootId=bktobz4lda0m8jz, id=bktobz4lda0m8jz
+2022-07-06T15:04:56.079Z - info: Render request 40 queued for execution and waiting for availible worker rootId=1ob3zl5jtspb7v0, id=1ob3zl5jtspb7v0
+2022-07-06T15:04:56.090Z - info: Starting rendering request 40 (user: null) rootId=1ob3zl5jtspb7v0, id=1ob3zl5jtspb7v0
+2022-07-06T15:04:56.091Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=1ob3zl5jtspb7v0, id=1ob3zl5jtspb7v0
+2022-07-06T15:04:56.862Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=1ob3zl5jtspb7v0, id=1ob3zl5jtspb7v0
+2022-07-06T15:04:59.617Z - info: Rendering request 40 finished in 3538 ms rootId=1ob3zl5jtspb7v0, id=1ob3zl5jtspb7v0
+2022-07-06T17:26:15.718Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-07-06T17:26:15.721Z - info: Searching for available extensions in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-06T17:26:15.738Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-06T17:26:15.757Z - info: Found 35 extension(s)
+2022-07-06T17:26:16.172Z - info: Using extension base@3.0.0
+2022-07-06T17:26:16.180Z - info: Using extension child-templates@3.0.3
+2022-07-06T17:26:16.187Z - info: Using extension cli@3.2.1
+2022-07-06T17:26:16.201Z - info: Using extension components@3.2.1
+2022-07-06T17:26:16.210Z - info: Using extension data@3.0.1
+2022-07-06T17:26:16.218Z - info: Using extension express@3.4.1
+2022-07-06T17:26:19.182Z - info: Using extension freeze@3.0.1
+2022-07-06T17:26:19.206Z - info: Using extension fs-store@3.2.1
+2022-07-06T17:26:20.050Z - info: Using extension handlebars@3.1.0
+2022-07-06T17:26:20.058Z - info: Using extension import-export@3.1.2
+2022-07-06T17:26:20.171Z - info: Using extension jsrender@3.0.0
+2022-07-06T17:26:20.176Z - info: Using extension licensing@3.0.2
+2022-07-06T17:26:20.316Z - info: Using extension localization@3.2.1
+2022-07-06T17:26:20.337Z - info: Using extension npm@3.1.2
+2022-07-06T17:26:20.348Z - info: Using extension pdf-utils@3.4.1
+2022-07-06T17:26:20.367Z - info: Using extension reports@3.0.5
+2022-07-06T17:26:20.385Z - info: Using extension tags@3.1.0
+2022-07-06T17:26:20.399Z - info: Using extension text@3.0.0
+2022-07-06T17:26:20.405Z - info: Using extension version-control@3.1.1
+2022-07-06T17:26:20.483Z - info: Using extension assets@3.4.2
+2022-07-06T17:26:20.589Z - info: Using extension authorization@3.2.1
+2022-07-06T17:26:20.622Z - info: Using extension browser-client@3.1.1
+2022-07-06T17:26:20.648Z - info: Using extension chrome-pdf@3.1.2
+2022-07-06T17:26:20.661Z - info: Using extension docx@3.3.1
+2022-07-06T17:26:20.671Z - info: Using extension html-to-xlsx@3.2.2
+2022-07-06T17:26:21.270Z - info: html-to-xlsx detected chrome as available html engine
+2022-07-06T17:26:21.271Z - info: Using extension pptx@3.2.1
+2022-07-06T17:26:21.280Z - info: Using extension scheduling@3.0.2
+2022-07-06T17:26:21.588Z - info: Using extension scripts@3.2.1
+2022-07-06T17:26:21.594Z - info: Using extension static-pdf@3.0.0
+2022-07-06T17:26:21.599Z - info: Using extension studio@3.6.0
+2022-07-06T17:26:22.039Z - info: Using extension xlsx@3.2.1
+2022-07-06T17:26:22.295Z - info: Using extension public-templates@3.0.0
+2022-07-06T17:26:22.303Z - info: Using extension sample-template@3.2.1
+2022-07-06T17:26:22.312Z - info: Using extension studio-theme-dark@3.0.1
+2022-07-06T17:26:22.323Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-07-06T17:26:22.323Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-07-06T17:26:22.324Z - info: Using fs provider for template store.
+2022-07-06T17:26:22.329Z - info: fs store is persisting using fs for C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\data
+2022-07-06T17:26:22.334Z - info: fs store is loading data
+2022-07-06T17:26:22.396Z - info: fs store is initialized successfully
+2022-07-06T17:26:22.409Z - info: Creating default express app.
+2022-07-06T17:26:22.781Z - info: jsreport server successfully started on http port: 5488
+2022-07-06T17:26:22.783Z - info: Verifying license key free
+2022-07-06T17:26:25.801Z - info: The licensing server was not reachable during instance startup. The instance now runs in the enterprise mode.
+2022-07-06T17:26:25.810Z - info: Initializing worker threads
+2022-07-06T17:26:26.945Z - info: 2 worker threads initialized in 1135ms
+2022-07-06T17:26:26.946Z - info: Starting temp files cleanup with 180000ms threshold
+2022-07-06T17:26:26.947Z - info: reporter initialized
+2022-07-06T17:27:06.345Z - info: Render request 1 queued for execution and waiting for availible worker rootId=s2o3lvyslizsee6, id=s2o3lvyslizsee6
+2022-07-06T17:27:06.802Z - info: Starting rendering request 1 (user: null) rootId=s2o3lvyslizsee6, id=s2o3lvyslizsee6
+2022-07-06T17:27:06.803Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=s2o3lvyslizsee6, id=s2o3lvyslizsee6
+2022-07-06T17:27:12.029Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=s2o3lvyslizsee6, id=s2o3lvyslizsee6
+2022-07-06T17:27:14.523Z - info: Rendering request 1 finished in 8178 ms rootId=s2o3lvyslizsee6, id=s2o3lvyslizsee6
+2022-07-06T17:28:07.124Z - info: Render request 2 queued for execution and waiting for availible worker rootId=gn8eqwrobairuqt, id=gn8eqwrobairuqt
+2022-07-06T17:28:07.139Z - info: Starting rendering request 2 (user: null) rootId=gn8eqwrobairuqt, id=gn8eqwrobairuqt
+2022-07-06T17:28:07.140Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=gn8eqwrobairuqt, id=gn8eqwrobairuqt
+2022-07-06T17:28:07.932Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=gn8eqwrobairuqt, id=gn8eqwrobairuqt
+2022-07-06T17:28:10.410Z - info: Rendering request 2 finished in 3284 ms rootId=gn8eqwrobairuqt, id=gn8eqwrobairuqt
+2022-07-06T17:31:18.686Z - info: Render request 3 queued for execution and waiting for availible worker rootId=6qy6yml8f68bfsp, id=6qy6yml8f68bfsp
+2022-07-06T17:31:18.718Z - info: Starting rendering request 3 (user: null) rootId=6qy6yml8f68bfsp, id=6qy6yml8f68bfsp
+2022-07-06T17:31:18.719Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=6qy6yml8f68bfsp, id=6qy6yml8f68bfsp
+2022-07-06T17:31:19.493Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=6qy6yml8f68bfsp, id=6qy6yml8f68bfsp
+2022-07-06T17:31:22.185Z - info: Rendering request 3 finished in 3498 ms rootId=6qy6yml8f68bfsp, id=6qy6yml8f68bfsp
+2022-07-06T17:31:26.527Z - info: Render request 4 queued for execution and waiting for availible worker rootId=idgvga15q4g1pm9, id=idgvga15q4g1pm9
+2022-07-06T17:31:26.540Z - info: Starting rendering request 4 (user: null) rootId=idgvga15q4g1pm9, id=idgvga15q4g1pm9
+2022-07-06T17:31:26.541Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=idgvga15q4g1pm9, id=idgvga15q4g1pm9
+2022-07-06T17:31:27.344Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=idgvga15q4g1pm9, id=idgvga15q4g1pm9
+2022-07-06T17:31:29.898Z - info: Rendering request 4 finished in 3371 ms rootId=idgvga15q4g1pm9, id=idgvga15q4g1pm9
+2022-07-06T17:31:35.439Z - info: Render request 5 queued for execution and waiting for availible worker rootId=4tqiw2y8xnl64e7, id=4tqiw2y8xnl64e7
+2022-07-06T17:31:35.452Z - info: Starting rendering request 5 (user: null) rootId=4tqiw2y8xnl64e7, id=4tqiw2y8xnl64e7
+2022-07-06T17:31:35.453Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=4tqiw2y8xnl64e7, id=4tqiw2y8xnl64e7
+2022-07-06T17:31:36.207Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=4tqiw2y8xnl64e7, id=4tqiw2y8xnl64e7
+2022-07-06T17:31:38.877Z - info: Rendering request 5 finished in 3438 ms rootId=4tqiw2y8xnl64e7, id=4tqiw2y8xnl64e7
+2022-07-06T17:32:12.676Z - info: Render request 6 queued for execution and waiting for availible worker rootId=kq1hki6du7f1xpc, id=kq1hki6du7f1xpc
+2022-07-06T17:32:12.693Z - info: Starting rendering request 6 (user: null) rootId=kq1hki6du7f1xpc, id=kq1hki6du7f1xpc
+2022-07-06T17:32:12.693Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=kq1hki6du7f1xpc, id=kq1hki6du7f1xpc
+2022-07-06T17:32:13.482Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=kq1hki6du7f1xpc, id=kq1hki6du7f1xpc
+2022-07-06T17:32:16.245Z - info: Rendering request 6 finished in 3569 ms rootId=kq1hki6du7f1xpc, id=kq1hki6du7f1xpc
+2022-07-06T17:32:22.857Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-07-06T17:32:22.861Z - info: Searching for available extensions in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-06T17:32:22.867Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-06T17:32:22.879Z - info: Found 35 extension(s)
+2022-07-06T17:32:22.952Z - info: Using extension base@3.0.0
+2022-07-06T17:32:22.957Z - info: Using extension child-templates@3.0.3
+2022-07-06T17:32:22.962Z - info: Using extension cli@3.2.1
+2022-07-06T17:32:22.964Z - info: Using extension components@3.2.1
+2022-07-06T17:32:22.966Z - info: Using extension data@3.0.1
+2022-07-06T17:32:22.967Z - info: Using extension express@3.4.1
+2022-07-06T17:32:23.291Z - info: Using extension freeze@3.0.1
+2022-07-06T17:32:23.293Z - info: Using extension fs-store@3.2.1
+2022-07-06T17:32:23.414Z - info: Using extension handlebars@3.1.0
+2022-07-06T17:32:23.415Z - info: Using extension import-export@3.1.2
+2022-07-06T17:32:23.425Z - info: Using extension jsrender@3.0.0
+2022-07-06T17:32:23.427Z - info: Using extension licensing@3.0.2
+2022-07-06T17:32:23.448Z - info: Using extension localization@3.2.1
+2022-07-06T17:32:23.449Z - info: Using extension npm@3.1.2
+2022-07-06T17:32:23.456Z - info: Using extension pdf-utils@3.4.1
+2022-07-06T17:32:23.460Z - info: Using extension reports@3.0.5
+2022-07-06T17:32:23.466Z - info: Using extension tags@3.1.0
+2022-07-06T17:32:23.469Z - info: Using extension text@3.0.0
+2022-07-06T17:32:23.471Z - info: Using extension version-control@3.1.1
+2022-07-06T17:32:23.490Z - info: Using extension assets@3.4.2
+2022-07-06T17:32:23.502Z - info: Using extension authorization@3.2.1
+2022-07-06T17:32:23.506Z - info: Using extension browser-client@3.1.1
+2022-07-06T17:32:23.508Z - info: Using extension chrome-pdf@3.1.2
+2022-07-06T17:32:23.511Z - info: Using extension docx@3.3.1
+2022-07-06T17:32:23.514Z - info: Using extension html-to-xlsx@3.2.2
+2022-07-06T17:32:23.567Z - info: html-to-xlsx detected chrome as available html engine
+2022-07-06T17:32:23.567Z - info: Using extension pptx@3.2.1
+2022-07-06T17:32:23.569Z - info: Using extension scheduling@3.0.2
+2022-07-06T17:32:23.607Z - info: Using extension scripts@3.2.1
+2022-07-06T17:32:23.608Z - info: Using extension static-pdf@3.0.0
+2022-07-06T17:32:23.610Z - info: Using extension studio@3.6.0
+2022-07-06T17:32:23.684Z - info: Using extension xlsx@3.2.1
+2022-07-06T17:32:23.713Z - info: Using extension public-templates@3.0.0
+2022-07-06T17:32:23.715Z - info: Using extension sample-template@3.2.1
+2022-07-06T17:32:23.717Z - info: Using extension studio-theme-dark@3.0.1
+2022-07-06T17:32:23.719Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-07-06T17:32:23.719Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-07-06T17:32:23.720Z - info: Using fs provider for template store.
+2022-07-06T17:32:23.726Z - info: fs store is persisting using fs for C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\data
+2022-07-06T17:32:23.730Z - info: fs store is loading data
+2022-07-06T17:32:23.757Z - info: fs store is initialized successfully
+2022-07-06T17:32:23.774Z - info: Creating default express app.
+2022-07-06T17:32:23.793Z - info: jsreport server successfully started on http port: 5488
+2022-07-06T17:32:23.795Z - info: Verifying license key free
+2022-07-06T17:32:26.799Z - info: The licensing server was not reachable during instance startup. The instance now runs in the enterprise mode.
+2022-07-06T17:32:26.809Z - info: Initializing worker threads
+2022-07-06T17:32:27.045Z - info: 2 worker threads initialized in 235ms
+2022-07-06T17:32:27.045Z - info: Starting temp files cleanup with 180000ms threshold
+2022-07-06T17:32:27.046Z - info: reporter initialized
+2022-07-06T17:32:52.597Z - info: Render request 1 queued for execution and waiting for availible worker rootId=ywjxaopr97c9tv3, id=ywjxaopr97c9tv3
+2022-07-06T17:32:52.676Z - info: Starting rendering request 1 (user: null) rootId=ywjxaopr97c9tv3, id=ywjxaopr97c9tv3
+2022-07-06T17:32:52.677Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: true } rootId=ywjxaopr97c9tv3, id=ywjxaopr97c9tv3
+2022-07-06T17:32:54.879Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=ywjxaopr97c9tv3, id=ywjxaopr97c9tv3
+2022-07-06T17:32:56.861Z - info: Render request 2 queued for execution and waiting for availible worker rootId=rhmsnr2zzhvooad, id=rhmsnr2zzhvooad
+2022-07-06T17:32:56.928Z - info: Starting rendering request 2 (user: null) rootId=rhmsnr2zzhvooad, id=rhmsnr2zzhvooad
+2022-07-06T17:32:56.928Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=rhmsnr2zzhvooad, id=rhmsnr2zzhvooad
+2022-07-06T17:32:57.650Z - info: Rendering request 1 finished in 5054 ms rootId=ywjxaopr97c9tv3, id=ywjxaopr97c9tv3
+2022-07-06T17:32:58.689Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=rhmsnr2zzhvooad, id=rhmsnr2zzhvooad
+2022-07-06T17:33:01.610Z - info: Rendering request 2 finished in 4749 ms rootId=rhmsnr2zzhvooad, id=rhmsnr2zzhvooad
+2022-07-06T17:41:59.741Z - info: Render request 3 queued for execution and waiting for availible worker rootId=sebchk5ll8wt6m3, id=sebchk5ll8wt6m3
+2022-07-06T17:41:59.757Z - info: Starting rendering request 3 (user: null) rootId=sebchk5ll8wt6m3, id=sebchk5ll8wt6m3
+2022-07-06T17:41:59.758Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=sebchk5ll8wt6m3, id=sebchk5ll8wt6m3
+2022-07-06T17:42:00.517Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=sebchk5ll8wt6m3, id=sebchk5ll8wt6m3
+2022-07-06T17:42:03.260Z - info: Rendering request 3 finished in 3519 ms rootId=sebchk5ll8wt6m3, id=sebchk5ll8wt6m3
+2022-07-06T17:43:23.015Z - info: Render request 4 queued for execution and waiting for availible worker rootId=zgt65xodsqrq0l8, id=zgt65xodsqrq0l8
+2022-07-06T17:43:23.032Z - info: Starting rendering request 4 (user: null) rootId=zgt65xodsqrq0l8, id=zgt65xodsqrq0l8
+2022-07-06T17:43:23.032Z - info: Rendering template { name: lista, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=zgt65xodsqrq0l8, id=zgt65xodsqrq0l8
+2022-07-06T17:43:23.804Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=zgt65xodsqrq0l8, id=zgt65xodsqrq0l8
+2022-07-06T17:43:26.444Z - info: Rendering request 4 finished in 3430 ms rootId=zgt65xodsqrq0l8, id=zgt65xodsqrq0l8
+2022-07-06T17:52:52.579Z - info: Render request 5 queued for execution and waiting for availible worker rootId=vx8uvijgh74xj64, id=vx8uvijgh74xj64
+2022-07-06T17:52:52.594Z - info: Starting rendering request 5 (user: null) rootId=vx8uvijgh74xj64, id=vx8uvijgh74xj64
+2022-07-06T17:52:52.595Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=vx8uvijgh74xj64, id=vx8uvijgh74xj64
+2022-07-06T17:52:53.338Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=vx8uvijgh74xj64, id=vx8uvijgh74xj64
+2022-07-06T17:52:56.095Z - info: Rendering request 5 finished in 3517 ms rootId=vx8uvijgh74xj64, id=vx8uvijgh74xj64
+2022-07-06T18:30:58.547Z - info: Initializing jsreport (version: 3.6.2, configuration file: jsreport.config.json, nodejs: 16.15.1)
+2022-07-06T18:30:58.550Z - info: Searching for available extensions in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-06T18:30:58.556Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\
+2022-07-06T18:30:58.570Z - info: Found 35 extension(s)
+2022-07-06T18:30:58.654Z - info: Using extension base@3.0.0
+2022-07-06T18:30:58.660Z - info: Using extension child-templates@3.0.3
+2022-07-06T18:30:58.664Z - info: Using extension cli@3.2.1
+2022-07-06T18:30:58.665Z - info: Using extension components@3.2.1
+2022-07-06T18:30:58.667Z - info: Using extension data@3.0.1
+2022-07-06T18:30:58.669Z - info: Using extension express@3.4.1
+2022-07-06T18:30:58.964Z - info: Using extension freeze@3.0.1
+2022-07-06T18:30:58.966Z - info: Using extension fs-store@3.2.1
+2022-07-06T18:30:59.073Z - info: Using extension handlebars@3.1.0
+2022-07-06T18:30:59.075Z - info: Using extension import-export@3.1.2
+2022-07-06T18:30:59.086Z - info: Using extension jsrender@3.0.0
+2022-07-06T18:30:59.087Z - info: Using extension licensing@3.0.2
+2022-07-06T18:30:59.127Z - info: Using extension localization@3.2.1
+2022-07-06T18:30:59.128Z - info: Using extension npm@3.1.2
+2022-07-06T18:30:59.136Z - info: Using extension pdf-utils@3.4.1
+2022-07-06T18:30:59.140Z - info: Using extension reports@3.0.5
+2022-07-06T18:30:59.149Z - info: Using extension tags@3.1.0
+2022-07-06T18:30:59.153Z - info: Using extension text@3.0.0
+2022-07-06T18:30:59.155Z - info: Using extension version-control@3.1.1
+2022-07-06T18:30:59.188Z - info: Using extension assets@3.4.2
+2022-07-06T18:30:59.205Z - info: Using extension authorization@3.2.1
+2022-07-06T18:30:59.211Z - info: Using extension browser-client@3.1.1
+2022-07-06T18:30:59.216Z - info: Using extension chrome-pdf@3.1.2
+2022-07-06T18:30:59.220Z - info: Using extension docx@3.3.1
+2022-07-06T18:30:59.223Z - info: Using extension html-to-xlsx@3.2.2
+2022-07-06T18:30:59.297Z - info: html-to-xlsx detected chrome as available html engine
+2022-07-06T18:30:59.297Z - info: Using extension pptx@3.2.1
+2022-07-06T18:30:59.300Z - info: Using extension scheduling@3.0.2
+2022-07-06T18:30:59.360Z - info: Using extension scripts@3.2.1
+2022-07-06T18:30:59.362Z - info: Using extension static-pdf@3.0.0
+2022-07-06T18:30:59.363Z - info: Using extension studio@3.6.0
+2022-07-06T18:30:59.460Z - info: Using extension xlsx@3.2.1
+2022-07-06T18:30:59.492Z - info: Using extension public-templates@3.0.0
+2022-07-06T18:30:59.496Z - info: Using extension sample-template@3.2.1
+2022-07-06T18:30:59.498Z - info: Using extension studio-theme-dark@3.0.1
+2022-07-06T18:30:59.500Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2022-07-06T18:30:59.501Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2022-07-06T18:30:59.501Z - info: Using fs provider for template store.
+2022-07-06T18:30:59.506Z - info: fs store is persisting using fs for C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\data
+2022-07-06T18:30:59.511Z - info: fs store is loading data
+2022-07-06T18:30:59.540Z - info: fs store is initialized successfully
+2022-07-06T18:30:59.559Z - info: Creating default express app.
+2022-07-06T18:30:59.583Z - info: jsreport server successfully started on http port: 5488
+2022-07-06T18:30:59.585Z - info: Verifying license key free
+2022-07-06T18:31:02.343Z - info: Using enterprise trial license
+2022-07-06T18:31:02.347Z - info: Initializing worker threads
+2022-07-06T18:31:02.653Z - info: 2 worker threads initialized in 306ms
+2022-07-06T18:31:02.653Z - info: Starting temp files cleanup with 180000ms threshold
+2022-07-06T18:31:02.654Z - info: reporter initialized
+2022-07-06T18:31:17.550Z - info: Render request 1 queued for execution and waiting for availible worker rootId=lvlkvye58grfato, id=lvlkvye58grfato
+2022-07-06T18:31:17.632Z - info: Starting rendering request 1 (user: null) rootId=lvlkvye58grfato, id=lvlkvye58grfato
+2022-07-06T18:31:17.633Z - info: Rendering template { name: array, recipe: chrome-pdf, engine: handlebars, preview: false } rootId=lvlkvye58grfato, id=lvlkvye58grfato
+2022-07-06T18:31:19.869Z - warn: Page request failed: GET (stylesheet) file:///C:/Users/lucas/AppData/Local/Temp/jsreport/autocleanup/index.css, failure: net::ERR_FILE_NOT_FOUND rootId=lvlkvye58grfato, id=lvlkvye58grfato
+2022-07-06T18:31:23.086Z - info: Rendering request 1 finished in 5535 ms rootId=lvlkvye58grfato, id=lvlkvye58grfato

@@ -1,0 +1,39 @@
+2022-07-06T02:04:15.343Z - error: Report render failed: Unexpected token } in JSON at position 60 SyntaxError: Unexpected token } in JSON at position 60
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:60:17)
+    at module.exports (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:36:23)
+    at WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:112:21)
+    at WorkerReporter.render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:128:17)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:174:12)
+    at Object.execute (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\workerHandler.js:52:23)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:41
+    at Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:25) rootId=2ql9d12n2vzyj8m, id=2ql9d12n2vzyj8m
+2022-07-06T02:04:20.006Z - error: Report render failed: Unexpected token } in JSON at position 60 SyntaxError: Unexpected token } in JSON at position 60
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:60:17)
+    at module.exports (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:36:23)
+    at WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:112:21)
+    at WorkerReporter.render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:128:17)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:174:12)
+    at Object.execute (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\workerHandler.js:52:23)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:41
+    at Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:25) rootId=m5v0iunvrs014w3, id=m5v0iunvrs014w3
+2022-07-06T13:16:47.149Z - error: Report render failed: Unexpected token i in JSON at position 0 SyntaxError: Unexpected token i in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at normalizeJSONData (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:60:17)
+    at module.exports (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\shared\request.js:36:23)
+    at WorkerReporter._render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:112:21)
+    at WorkerReporter.render (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:128:17)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:179:30
+    at WorkerReporter.executeWorkerAction (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:174:12)
+    at Object.execute (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\jsreport-core\lib\worker\workerHandler.js:52:23)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:41
+    at Domain.<anonymous> (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:141:25)
+    at Domain.run (node:domain:378:15)
+    at C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:139:7
+    at new Promise (<anonymous>)
+    at runInDomain (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:134:10)
+    at execute (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:93:10)
+    at processAndResponse (C:\Users\lucas\Desktop\estudos\gerador-relatorios-pdf-node\jsreport-server\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:43:23) rootId=yuoohrt5bzlwls6, id=yuoohrt5bzlwls6

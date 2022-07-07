@@ -1,0 +1,20 @@
+{
+    "name": "lista",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "data": {
+        "shortid": "hiZjSa-i3"
+    },
+    "shortid": "rQjDK2wtVt",
+    "chrome": {
+        "printBackground": true
+    },
+    "creationDate": {
+        "$$date": 1657113012738
+    },
+    "modificationDate": {
+        "$$date": 1657117488996
+    },
+    "_id": "GVjXIRymsWALUUEi",
+    "$entitySet": "templates"
+}
